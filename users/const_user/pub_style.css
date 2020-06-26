@@ -1,0 +1,159 @@
+*{box-sizing: border-box;}
+body{padding: 0;margin: 0;background-color: white;}
+/*public*/
+::-webkit-scrollbar-track {border-radius: 12px;background-color: teal;}
+::-webkit-scrollbar {width: 9px;}
+::-webkit-scrollbar-thumb {border-radius: 12px;background-color:midnightblue;}
+.bg-darkblue{background-color: teal;}
+.bg-darkpink{background-color: teal;}
+.text-lightpink{color: teal;}
+.text-pink{color: rgb(252, 228, 252);}
+.title1 h3{max-width: fit-content;margin: auto;color: teal;letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+span.gotop{visibility: hidden; cursor: pointer;color: white;background-color: teal;display: inline-block;
+padding: 15px 23px;border-radius: 50%;position: fixed;bottom: 20px;right: 20px;z-index: 999;opacity: 0.7;text-decoration: none;}
+/*firstnav*/
+ul.header{padding: 0;margin: 0;list-style-type: none;background-color: teal;overflow: hidden;}
+.header li{float: left;}
+.header li.right{float: right;}
+.header a{padding: 5px 12px;text-align: center;color: lightgray;text-decoration: none;display: inline-block;}
+.header a:hover{color: white;}
+/*slider1*/
+.carousel{margin-top: -90px;}
+.carousel-indicators li{width: 20px;height: 20px;border-radius: 50%;background-color: teal;opacity:0.5;}
+.carousel-caption h5{color: teal;font-size: 30px;}
+.carousel-caption p{color: teal}
+.arrowslider{color: teal;font-size: 30px;}
+.carousel-hand{cursor: grab;}
+/*about section*/
+.title1 p{max-width: fit-content;margin: auto;}
+a.cardl{text-decoration: none;}
+a.cardl span{font-size:25px;float: right;margin:-8px 15px 0px 0px;}
+p.insidecord{padding:15px 20px 20px 20px;}
+.cord{border: 0.5px solid lightgray;}
+/*doctor section*/
+.doctor{background-color: teal;padding: 80px 60px;}
+.doctor .title1 h3{color: rgb(252, 228, 252)}
+.doctor .title1 p{color: white;}
+.hellotitle{background-color: teal;color: rgb(252, 228, 252);padding: 6px 16px;width: fit-content;
+margin-bottom: 30px;margin-top: 10px;}
+.alert-pink{background-color: rgb(252, 228, 252);}
+.doctorinfo{background-color: rgb(252, 228, 252);padding: 10px 20px;}
+/*medical information*/
+.allcols{text-align: center;}
+.allweeks{border: 2px solid teal;border-radius: 8px;padding: 40px 20px 40px;}
+.note1{background-color: teal;padding: 10px 20px;border-radius: 8px;}
+.notetitle1{background-color: teal;padding: 5px 16px;color: lightgray;width: fit-content;}
+.notecont1{color: lightgray;}
+.allcols h3{color: teal;}
+.allcols a{display: block;text-decoration: none;padding: 10px 25px;}
+@media (max-width:992px){
+    .minfo .title1 h3{font-size: 20px;}
+}
+/*video section*/
+section.videosec{display: none; position: fixed;width: 100%;height: 100%;bottom: 0px;left: 0px;z-index:1042;background-color: rgba(8, 8, 8,0.9)}
+div.videocont{text-align: center;opacity: 1;}
+iframe.vid{position: absolute;top: 15%;left: 25%;}
+.closevideo{color: black;padding: 8px 15px 10px 15px; border-radius: 50%;background-color: white;font-size: 20px;cursor: pointer;
+position: relative;top: 40px;left: 40px;}
+.closevideo:hover{background-color: cyan;}
+@media (max-width:992px){
+    iframe.vid{width: 500px;height: 300px;position: absolute;left: 20%;}
+}
+@media (max-width:768px){
+    iframe.vid{width: 450px;height: 300px;position: absolute;left: 9%;}
+}
+.videoscont{background-color: teal;overflow: hidden;}
+.videotitle h3{max-width: fit-content;margin: auto;color: rgb(252, 228, 252);letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+.videotitle p{max-width: fit-content;margin: auto;color: rgb(252, 228, 252);}
+.vidinfo{margin-bottom: 40px;}
+.vidinfo h3{color: rgb(252, 228, 252);margin-bottom: 40px;margin-top: 40px;}
+.vidinfo p{color: rgb(252, 228, 252);margin:30px 40px 60px 40px;}
+.vidinfo a{text-decoration: none;color: teal;background-color: rgb(252, 228, 252);padding: 12px 16px;
+text-align: center;}
+.vidinfo a:hover{color: white;background-color: teal;}
+.vidself{position: relative;}
+.vidself i{position: absolute;left: 45%;top: 45%;color: teal; padding: 20px 23px ;font-size: 25px;
+border: 1px solid teal;border-radius: 50%;background-color: white;cursor: pointer;}
+/*frqqustions*/
+.mulcol div{padding: 10px 0px;}
+.mulcol div h3{font-weight: 400;font-size: 22px;}
+.mulcol div p{color: gray;}
+/*signup section*/
+.signupcont{background-color: teal;}
+.signuptitle h3{max-width: fit-content;margin: auto;color: rgb(252, 228, 252);letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+.signuptitle p{max-width: fit-content;color: rgb(252, 228, 252);margin: auto;}
+.signup div.formcontainer{max-width: 50%;margin: auto;}
+.signup form{max-width: 100%;margin: auto;}
+.signup label{color: rgb(252, 228, 252);}
+.signup input ,.signup select{width: 100%;border: none;border-radius: 12px;padding: 15px 20px;}
+.preg_date{width: 49%;display: inline-block;}
+@media (max-width:992px){
+    .signup div.formcontainer{max-width: 70%;}
+}
+/*footer*/
+.footerlink{color: lightgray;text-decoration: none;}
+.footerlink:hover{color: white;text-decoration: none;}
+.notetitle{background-color: teal;color: lightgray;padding: 5px 14px ;
+width: fit-content;transform: rotate(90deg);margin: 9px 0px 35px ;}
+.note{background-color: midnightblue;padding: 20px 30px;color: teal;}
+/*doctor page*/
+.doctorslide img{border-radius: 50%;height: 30%;width: 30%;}
+.doctorslide1{background-color: teal;padding-bottom: 50px;padding-top: 50px;}
+.doctorslide1 .city h3{max-width: fit-content;margin: auto;color: rgb(252, 228, 252);letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+.doctorslide2 .city h3{max-width: fit-content;margin: auto;color: teal;letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+/*monthes pages*/
+.choseweek h3{max-width: fit-content;margin: auto;color: teal;letter-spacing: 8px;font-weight: 400;font-size: 35px;}
+.choseweek li{cursor: pointer;}
+.weekinfo ul {list-style-type: none;list-style-image: url('../img/face2.png');}
+/*videos page*/
+.allvideoscont{padding: 20px 40px;}
+.imganddisc a{display: block;position: relative;text-decoration: none;color: black;border: 0.5px solid lightgray;padding: 5px;
+border-radius: 8px;cursor: pointer;}
+.vidimg,.viddisc{display: inline-block;}
+.vidimg{width: 35%;position: relative;}
+.vidimg i.listplayer{position: absolute;top: 38%;left: 28%;color: white;padding: 15px 30px;background-color: black;opacity: 0.5;border-radius: 8px; }
+.viddisc{padding-left:10px; }
+.viddisc h4{color: teal;}
+.viddisc p{color: gray;}
+.videoslist{background-color: white;padding: 20px 20px;border: 5px solid teal; border-radius: 8px;}
+.istyle{border: 5px solid teal;border-radius: 8px;}
+
+/*user_login page*/
+.usersigncont{height: 100vh;background-image: url('../img/videoimg.jpg');}
+.usersingform{max-width: 40%;margin: auto;margin-top: 100px;}
+.usersingform label{color: gray;font-size: 20px;color: #007bff;}
+.usersingform input{width: 80%;padding: 5px 10px ; border:1px solid lightblue;border-radius: 8px;}
+
+/*notification_pages*/
+.notif{background-color: lightblue;padding: 10px 20px;}
+.notifnum{background-color: white;padding: 3px;border-radius: 40%;width:35px;text-align: center;}
+
+/*month vid page*/
+.istyle{width: 70%;height: 350px;}
+.fa-star{font-size: 40px;color: lightgray;text-shadow: 0px 0px 8px turquoise;cursor: pointer;}
+@media (max-width:800px) {
+  .istyle{width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,0 +1,12 @@
+.settingimg img{width:200px;}
+.settingimg a{display: inline-block;background-color: lightgray;margin:10px;padding: 10px;border:5px solid black;
+  border-radius: 20px;}
+.settingimg a:hover{background-color: white;}
+.backimg{width:50px;height:50px;border-radius: 50%;}
+.backimglink{margin: 20px 20px;display: inline-block;border-radius: 8px;background-color: white;}
+.backimglink:hover{background-color: lightgray;}
+
+/* editforms */
+.editforms input{width: 500px;border-radius: 5px;border:0;height: 50px;padding: 10px;}
+.editforms .aditsubmit{width: 100px;background-color: black;color:white;}
+.editforms .aditsubmit:hover{background-color: white;color: black;}

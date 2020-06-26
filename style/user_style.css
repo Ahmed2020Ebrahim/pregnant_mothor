@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+body{padding: 0;margin: 0px;;background-color: rgb(220,220,220);}
+/*public*/
+::-webkit-scrollbar-track {border-radius: 12px;background-color: teal;}
+::-webkit-scrollbar {width: 9px;}
+::-webkit-scrollbar-thumb {border-radius: 12px;background-color:midnightblue;}
+
+
+
+
+/*------USERS PAGES STYLEING-------*/
+/*----user_profile_page-----*/
+/*nav bar*/
+/*top nav bar*/
+.firstnavtop{position: fixed;top: 0px;width: 100%;z-index: 999;margin-bottom: 100px;}
+nav ul{margin: 0;padding: 0;list-style-type: none;background-color: teal;overflow: hidden;}
+nav ul li{float: left;}
+nav ul li a.usertopnav{padding: 10px 15px;color: white;text-align: center;text-decoration: none;display: inline-block;}
+nav ul li a.usertopright img,nav ul li a.usertopleft img{width: 25px;height: 25px;border-radius: 50%;}
+nav ul li.userleftlink{float: right;}
+nav ul li.userrightlink{margin-right: 23%;}
+nav ul li a.usertopnav:hover{color: lightgray;}
+@media (max-width:1100px){
+  nav ul li.userrightlink{margin-right: 15%;}
+}
+
+/*alter top nav bar*/
+.alttopnav{position: fixed;top:0px;width: 100%;z-index: 999;display: none;}
+.alttopnav .ddropbtnup{display: none;}
+.alttopnav img{width: 25px;height: 25px;border-radius: 50%;}
+.alttopnav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: teal;}
+.alttopnav li {float: left;}
+.alttopnav li a,.alttopnav .ddropbtn {display: inline-block;color: white;text-align: center;padding: 10px 15px;text-decoration: none;}
+.alttopnav li a:hover,.alttopnav .ddropdown:hover .dropbtn {color: lightgray;}
+.alttopnav li.ddropdown {display: inline-block;}
+.alttopnav .ddropdown-content {display: none;position: absolute;right: 7px;background-color: #f9f9f9;width: 99%;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);z-index: 1;}
+.alttopnav .ddropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: center;}
+.alttopnav .ddropdown-content a:hover {background-color: #f1f1f1;}
+@media (max-width:900px) {
+  .firstnavtop{display: none;}
+  .alttopnav{display: block;}
+}
+
+/*side bar*/
+.usersidenav{width: 250px;background-color: white;padding: 15px 25px;margin: 0px 25px 0px 25px;position: fixed;
+box-shadow: 10px 10px 40px rgb(180, 180, 180) , 10px 10px 40px rgb(180, 180, 180);}
+.userimggallery{text-align: center;position: relative;}
+.userimggallery span{position: absolute;top:-10px;right:-20px;padding: 5px 10px;background-color: teal;
+color: white;border-radius: 2px 2px 2px 20px;cursor: pointer;}
+.userimggallery span:hover{color: lightgray;}
+.userimggallery img{border-radius: 50%;}
+.userimggallery .pro_user_name{color: gray;margin-top: 8px;margin-bottom: -5px;}
+.sidelinkscont a{display: inline-block;padding: 5px 10px ; width: 100%;border-radius: 8px;color: teal;
+margin: 2px 0px;text-decoration:none;}
+.sidelinkscont a:hover{background-color: black;text-decoration: none;color: turquoise;}
+.display_sidenav{position: fixed;top: 65px;left: 0px;padding: 5px 6px;background-color: teal;
+color: white;border-radius: 0px 0px 20px 0px;cursor: pointer;z-index: 99;display: none;}
+.display_sidenav:hover{color: lightgray;}
+
+/*sm_screen_nav*/
+.sm_screen_nav{position: absolute;visibility: hidden;background-color: white;margin: 65px 25px 0px 25px;padding: 10px 15px;
+box-shadow: 5px 5px 6px rgb(180, 180, 180) , 5px 5px 6px rgb(180, 180, 180);z-index: 99;}
+.sm_screen_nav a.sm_nav_links{color: teal;text-decoration: none;display: inline-block;text-align: center;
+padding: 7px 12px;font-size: 15px;background-color: white;border-radius: 50%;border:3px solid teal;}
+.sm_screen_nav a.sm_nav_links:hover{background-color: lightgray;}
+
+/*user_page_body*/
+.user_page_body{margin-left: 310px;margin-right: 25px;margin-top:80px ;margin-bottom: 40px;background-color: white;
+z-index: 99;padding: 15px 25px;
+box-shadow: 10px 10px 40px rgb(180, 180, 180) , 10px 10px 40px rgb(180, 180, 180);}
+@media (max-width:1100px){
+  .usersidenav{display: none;}
+  .user_page_body{margin-left: 25px;}
+  .usersidenav{display: none;}
+  .sm_screen_nav{position: sticky;top:47px;width: 93.8%;visibility: visible;}
+}
+/*timeinfo*/
+.timeinfo p{background-color: turquoise;padding: 10px 15px;border-radius: 40px;color: white;}
+.timeinfo p span{display: inline-block;color: turquoise;background-color: white;padding: 3px 9px 3px 5px;
+border-radius: 40%;}
+@media (max-width:800px){
+  .timeinfo p{padding: 8px 5px;font-size: 12px;}
+}

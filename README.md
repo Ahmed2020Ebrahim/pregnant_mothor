@@ -28,8 +28,4 @@ doctors can sign up in the website to help other to find him.
 
 ## 📽️ Demo Video
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing" target="_blank">
-    <img src="https://img.youtube.com/vi/YOUTUBE_THUMBNAIL_PLACEHOLDER/0.jpg" alt="Demo Video" width="500"/>
-  </a>
-</p>
+[▶️ Watch the demo](https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing)

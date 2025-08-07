@@ -37,5 +37,5 @@ doctors can sign up in the website to help other to find him.
   </a>
 </p>
 
-[Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing)
+![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing)
 

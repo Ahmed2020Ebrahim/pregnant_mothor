@@ -20,13 +20,16 @@ doctors can sign up in the website to help other to find him.
 
 ## 🖼️ Screenshots
 ![Home Page](https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/1.jpg)
-![Week Page](assets/assets/projects/pregnant_mom/2.PNG)
-![Admin Dashboard](assets/assets/projects/pregnant_mom/3.PNG)
+![Videos Section](https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/2.jpg)
+![User Profile](https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/4.jpg)
+![User Profile](https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/6.jpg)
+
+
 
 ## 📽️ Demo Video
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/VIDEO_ID/view" target="_blank">
+  <a href="https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing" target="_blank">
     <img src="https://img.youtube.com/vi/YOUTUBE_THUMBNAIL_PLACEHOLDER/0.jpg" alt="Demo Video" width="500"/>
   </a>
 </p>

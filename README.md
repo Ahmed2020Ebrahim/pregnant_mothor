@@ -37,9 +37,5 @@ doctors can sign up in the website to help other to find him.
   </a>
 </p>
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing" target="_blank">
-    <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/1_with_play.jpg" alt="Demo Video" width="500"/>
-  </a>
-</p>
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/VIDEO_ID/view)
 

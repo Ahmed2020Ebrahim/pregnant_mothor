@@ -19,7 +19,7 @@ doctors can sign up in the website to help other to find him.
 - MySQL
 
 ## 🖼️ Screenshots
-![Home Page](assets/assets/projects/pregnant_mom/1.PNG)
+![Home Page](https://raw.githubusercontent.com/Ahmed2020Ebrahim/my_portfolio/refs/heads/master/assets/assets/projects/pregnant_mom/1.jpg)
 ![Week Page](assets/assets/projects/pregnant_mom/2.PNG)
 ![Admin Dashboard](assets/assets/projects/pregnant_mom/3.PNG)
 
